@@ -346,9 +346,10 @@ display: flex;
 }}
 .in-container h2{
    font-family: "Inter", sans-serif;
-   margin-top: 10%;
+   /* margin-top: 10%; */
    margin-left: 13%;
    color: white;
+   margin-top: -15%;
 }
 }
 @media(max-width:323px){
@@ -365,3 +366,6 @@ display: flex;
    display: flex;
    overflow-x: scroll;
 }}
+.in-container {
+   margin-top: -15%;
+}
