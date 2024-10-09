@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   
+   .big-container{
+    display: flex;
+ 
+
+   }
+   .big-container .nav-bar{
+    width: 150px;
+    /* width: 20%; */
+    height: 100vh;
+    /* background-color: pink; */
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    /* background-color: purple; */
+
+   }
+   .nav-bar .box-cont .box {
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+    }
+   .nav-bar .box-cont .box i{
+    color: aliceblue;
+    /* margin-top: 30px; */
+    margin-left: 7px;
+  }
+  .big-container .main-cont {
+   font-family: "Inter", sans-serif;
+   width: 90%;
+   height: 100vh;
+   margin-left: 13%;
+      position: relative;
+    }
+.main-cont video{
+        width: 100%;
+    }
+  .box-cont button{
+    margin-top: 30px;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+    border-radius: 30px;
+    color:rgb(240, 214, 14);
+    font-weight: bold;
+    background-color:rgb(115, 115, 54) ;
+   }
+.my-container{
+    position: absolute;
+    top: 27%;
+    left: 10%;
+}
+.my-container h2{
+    color: aqua;
+    margin-left: 10px;
+    
+}
+ .my-container P{
+color: aliceblue;
+ }  
+ .my-container h3{
+    color: antiquewhite ;
+
+ }
+ .tea button{
+    background-color: transparent;
+    border-radius: 20px;
+    padding:7px;
+    color: aliceblue;
+    border: none;
+ }
+ button:hover{
+    background-color: rgb(69, 70, 71);
+ }
+ .take button{
+    padding: 3%;
+    width: 70%;
+ }
+ .take button h1{
+    background-color: tran;
+ }
+ .in-container h2{
+   font-family: "Inter", sans-serif;
+   margin-top: 18%;
+   margin-left: 13%;
+   color: white;
+   
+ }
+
+ .box-container{
+   font-family: "Inter", sans-serif;
+   margin-left: 12%;
+   /* display: inline-block; */
+   display: inline-block;
+ }
+ .is-container {
+   font-family: "Inter", sans-serif;
+   flex-wrap: wrap;
+
+
+ }
+
+.a-container{
+    font-family: "Inter", sans-serif;
+flex-wrap: wrap;
+ 
+} 
+.b-container{
+    font-family: "Inter", sans-serif;
+  
+}
+.c-container{
+   color:#707A94;
+   margin-left: 15%;
+   font-weight: bold;
+   
+}
+.hole-container{
+
+   color:white;
+}
+.d-container{
+   font-family: "Inter", sans-serif;
+   margin-left: 15%;
+   color: white;
+}
+.all-container{
+   background-color: black;
+}
+.my-card::-webkit-scrollbar{
+   width: 0;
+}
+.my-card {
+   width: 100%;
+   
+   display: flex;
+   overflow-x: scroll;
+}
+.my-card img{
+   width: 200px;
+   margin-left: 80%;
+}
+.in-cart::-webkit-scrollbar{
+   width: 0;
+}
+.in-cart{
+   display: flex;
+   overflow: scroll;
+
+}
+.e-container::-webkit-scrollbar{
+   width: 0;
+}
+.e-container{
+   width: 86%;
+   height: 340px;
+   margin-left: 10%;
+   display: flex;
+   overflow-x: scroll;
+}
+.e-container .card {
+   width: 200px;
+   height: 300px;
+   position: relative;
+}
+.e-container img{
+   width: 200px;
+   height: 100%;
+}
+.e-container .card h1 {
+   position: absolute;
+   bottom: 0;
+   color: #fff;
+   font-size: 100px;
+}
+.f-container{
+   font-family: "Inter", sans-serif;
+   margin-left: 10%;
+   color: white;
+   position: relative;
+}
+.g-container {
+   width: 130%;
+   margin-left: 10%;
+   color: azure;
+   overflow-x: scroll;
+
+}
+.g-container{
+   display: flex;
+   font-size: 100px;
+}
+.b-container img{
+   margin-top: 5%;
+   width: 30%;
+}
+.a-container p{
+   color:#707A94;
+}
+.is-container p{
+   color:#707A94;
+}
+.box-container p{
+   color:#707A94;
+}
+.icons {
+   display: flex;
+   list-style: none;
+   width: 200px;
+   color: white;
+   margin-top:30px;
+}
+.icons i{
+  font-size: 30px;
+   margin:0 10px;
+   width: 100px;
+}
+
+.card{ 
+margin: 10px;
+}
+
+.box-cont p{
+   font-family: "Inter", sans-serif;
+   margin-left: 20px;
+color: white;
+display: flex;
+}
+.talk{
+   display: flex;
+}
+ .take{
+   background-color: hsl(6.67deg 4.31% 40.98%);
+   color: white;
+   width: 50%;
+   height: 40px;
+   border-radius: 5px;
+   margin: 10px 0;
+  }
+.taken{
+   background-color: hsl(6.67deg 4.31% 40.98%);
+   color: white   ;
+   margin: 10px 8px;
+    width: 8%;
+    border-radius: 5px;
+}
+.hole-container{
+   justify-content: space-between;
+   display: flex;
+   flex-wrap: wrap;
+}
+.main-cont{
+   width: 88%;
+   margin-left: 12%;
+}
+@media (max-width:900px) {
+   .box-cont  p{
+      display: none;
+   }
+
+}
+.a-container p{
+   padding-top: 4px;
+}
+
+@media(max-width:700px)  {
+   .nav-bar{
+      display: none;
+   }
+}
+.z-container {
+   background-color: rgb(31, 30, 30);
+   width: 100%;
+   height: 10vh;
+   color: white;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   position: fixed;
+   margin-top: 50px;
+   padding: 0 14px;
+   z-index: 1;
+}
+/* @media(max-width :700px){
+   .z-container{
+      display: block;
+   } */
+@media  (max-width:700px){
+   .my-container h3{
+      display: none;
+   }
+   }
+   @media(min-width:701px) {
+       .z-container{
+         display: none;
+      }
+}
+@media(max-width:323px){
+   .big-container .main-cont {
+      font-family: "Inter", sans-serif;
+      width: 100%;
+      height: 100vh;
+      margin-left: 0%;
+         position: relative;
+       }
+}
+@media(max-width:323px){
+   .e-container{
+      width: 86%;
+      height: 340px;
+      margin-left: 0%;
+      display: flex;
+      overflow-x: scroll;
+}
+@media(max-width:323px){
+.my-card img{
+   width: 200px;
+   margin-left: 1%;
+}}
+@media(max-width:323px){
+.is-container {
+   font-family: "Inter", sans-serif;
+   flex-wrap: wrap;
+   margin-left: 30px;
+}}
+@media(max-width:323px){
+.a-container {
+   margin-left: 30px;
+}}
+@media(max-width:323px){
+.b-container {
+   margin-left: 30px;
+}}
+@media(max-width:323px){
+.big-container .main-cont {
+   font-family: "Inter", sans-serif;
+   width: 100%;
+   height: 82vh;
+   margin-left: 0%;
+   position: relative;
+}}
+.in-container h2{
+   font-family: "Inter", sans-serif;
+   margin-top: 10%;
+   margin-left: 13%;
+   color: white;
+}
+}
+@media(max-width:323px){
+.my-container {
+   position: absolute;
+   top: 38%;
+   left: 10%;
+}}
+@media(max-width:323px){
+.e-container {
+   width: 100%;
+   height: 340px;
+   margin-left: 0%;
+   display: flex;
+   overflow-x: scroll;
+}}
